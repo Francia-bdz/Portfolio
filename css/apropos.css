@@ -159,6 +159,7 @@ filter: grayscale(85%);
 -webkit-filter : grayscale(85%);
 transition: filter 0.15s ease-in-out;
 transition: -webkit-filter 0.15s ease-in-out;
+
 }
 
 .photo-1:hover{
