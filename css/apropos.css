@@ -179,7 +179,13 @@ filter: grayscale(0%);
 }
 
 .h2-div{
-  color: #C4C4C4;
+  color: #929292;
+  font-size: 30px;
+  transition: color 0.15s ease;
+}
+
+.anecdote{
+  color: #d9f908e1;
   font-size: 30px;
   transition: color 0.15s ease;
 }
@@ -199,8 +205,8 @@ margin-top: 5%;
 }
 
 .text-2{
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 500;
   margin-top: 1%;
   margin-bottom: 1%
   
@@ -214,7 +220,30 @@ margin-top: 5%;
   margin-left: 5%;
   
 }
+li{
+  list-style-type: none;
+}
 
 .text-up{
   margin-top: 2%;
+}
+.sims{
+  color: white;
+  transition: color 0.15 ease-in-out;
+}
+
+.sims:hover{
+  color: #21b96b;
+}
+
+
+.CV{
+  text-decoration: none;
+  color: #c4c4c4;
+  transition: color 0.15 ease-in-out;
+}
+
+.CV:hover{
+
+  color: #D7F908;
 }
