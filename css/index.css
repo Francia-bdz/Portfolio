@@ -172,6 +172,10 @@ header{
     max-height: 218px;
   }
 
+  .logo{
+    font-size: 38px;
+  }
+  
   .footer-link{
     margin-top: 7%;
     font-size: 30px;
