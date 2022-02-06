@@ -42,7 +42,7 @@ header{
 
 
 .bars{
-
+  color: transparent;
   display: none;
 }
 .nav-link{
