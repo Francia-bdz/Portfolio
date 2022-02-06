@@ -154,3 +154,14 @@ header{
   max-height: 580px;
   
 }
+
+@media screen and (max-width: 768px){
+  .video-ciel{
+    max-width: 500px;
+    max-height: 290px;
+  }
+
+  .footer-link{
+    font-size: 34px;
+  }
+}

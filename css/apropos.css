@@ -247,3 +247,52 @@ li{
 
   color: #D7F908;
 }
+
+@media screen and (max-width: 768px){
+  .apropos-div-1{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.photo-1{
+  object-fit: scale-down;
+  margin-bottom: 2%;
+}
+
+.apropos-div-1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;   
+  }
+
+  .text-But{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .text-1{
+    margin-bottom: 5%;
+  }
+
+  .text-2{
+    font-size: 18px; 
+  }
+  
+   .ul {
+    font-size: 18px; 
+   }
+
+   .text-fin{
+     margin-bottom: 3%;
+   }
+
+   .footer-link{
+    font-size: 34px;
+  }
+}

@@ -213,3 +213,13 @@ header{
   .next-text:hover{
     color: #D7F908;
   }
+  
+  @media screen and (max-width: 768px){
+  .footer-link{
+    font-size: 34px;
+  }
+
+  .projet-div {
+    justify-content: center;
+  }
+}
