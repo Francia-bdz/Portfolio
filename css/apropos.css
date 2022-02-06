@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color: black;
-    font-family: 'Roboto','Open Sans';
+    font-family: 'Roboto','Open Sans', Arial, Helvetica, sans-serif;
     color: white;
   }
  
@@ -163,6 +163,7 @@ transition: -webkit-filter 0.15s ease-in-out;
 }
 
 .photo-1:hover{
+  
 -webkit-filter: grayscale(0%);
 filter: grayscale(0%);
 }
@@ -170,15 +171,37 @@ filter: grayscale(0%);
 .h2-div{
   color: #C4C4C4;
   font-size: 30px;
+  transition: color 0.15s ease;
 }
 
+/* .h2-div:hover{
+  color: #D7F908;
+} */
+
+.div-top{
+margin-top: 5%;
+}
 .apropos-div-2{
-  margin: 5%;
+  margin-top: 3%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom: 0%;
 }
 
 .text-2{
   font-size: 18px;
   font-weight: 600;
+  margin-top: 1%;
+  margin-bottom: 1%
+  
+}
+
+ .ul {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
   
 }
 
