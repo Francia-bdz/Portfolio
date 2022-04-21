@@ -199,8 +199,12 @@ header{
     color: white;
   }
 
-
-  .next-text{
+  .link-page-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+  }
+  .link-page-left{
     margin-left: 5%;
     text-align: center;
     font-size: 18px;
@@ -210,7 +214,21 @@ header{
     transition: color 0.2s ease-in-out;
   }
 
-  .next-text:hover{
+  .link-page-left:hover{
+    color: #D7F908;
+  }
+
+  .link-page-right{
+    margin-right: 5%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .link-page-right:hover{
     color: #D7F908;
   }
   
