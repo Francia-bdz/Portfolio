@@ -149,14 +149,14 @@ header{
   flex-direction: column;
 }
 
-.video-ciel{
+.video-index{
   max-width: 1000px;
   max-height: 580px;
   
 }
 
 @media screen and (max-width: 768px){
-  .video-ciel{
+  .video-index{
     max-width: 500px;
     max-height: 290px;
   }
@@ -167,7 +167,7 @@ header{
 }
 
 @media screen and (max-width: 500px){
-  .video-ciel{
+  .video-index{
     max-width: 375px;
     max-height: 218px;
   }
