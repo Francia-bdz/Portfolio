@@ -229,18 +229,33 @@ li{
 }
 .sims{
   color: white;
-  transition: color 0.15 ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .sims:hover{
-  color: #21b96b;
+  background: linear-gradient(-45deg, #a6e329, #3cb9e1, #21b96b, #21b96b);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 3s ease-in-out infinite;
+	-moz-animation: animated_text 3s ease-in-out infinite;
+	-webkit-animation: animated_text 3s ease-in-out infinite;
 }
 
+.anecdote-text:hover::after{
+  content: "(Oui, on peut être fan des Sims ...)";
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
 
 .CV{
   text-decoration: none;
   color: #c4c4c4;
-  transition: color 0.15 ease-in-out;
+  transition: color 0.15s ease-in-out;
 }
 
 .CV:hover{
