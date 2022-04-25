@@ -233,7 +233,7 @@ li{
 .sims:hover{
   background: linear-gradient(-45deg, #a6e329, #3cb9e1, #21b96b, #21b96b);
 	background-size: 300%;
-	background-clip: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animated_text 3s ease-in-out infinite;
 	-moz-animation: animated_text 3s ease-in-out infinite;
