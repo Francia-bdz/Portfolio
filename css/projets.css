@@ -6,7 +6,9 @@
   font-family: 'Roboto','Open Sans',sans-serif;
   color: #fff;
 }
- 
+
+/* header */
+
 header{
   position: relative;
   z-index: 2;
@@ -40,32 +42,18 @@ header{
   color: #D7F908;
 }
 
-
 .bars{
   color: transparent;
   display: none;
 }
 .nav-link{
   margin-left: 30px;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 600;
   color: #D7F908;
   text-decoration: none;
   transition: background-color 0.3s ease;
   transition: color 0.3s ease;
-}
-
-
-.footer-text{
-  
-  
-  position:absolute;
-  left: 40px;
-  bottom: 50px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  margin-bottom: 2%;
 }
 
 .nav-link:hover{
@@ -97,7 +85,7 @@ header{
   
 }
 .footer-link{
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 600;
   color: #D7F908;
   text-decoration: none;
